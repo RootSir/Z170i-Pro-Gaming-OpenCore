@@ -4,7 +4,7 @@
 ![image](Screenshot_en-us.png)
 
 ## 注意事项
-1. 加入Mac启动音效。根据主板的不用，可能需要修改‘config.plist/UEFI/Audio/AudioOut’。
+1. 加入Mac启动音效。根据主板的不同，可能需要修改‘config.plist/UEFI/Audio/AudioOut’。
 2. 如果你没有独立显卡（核显输出），参考[这里](https://github.com/berikiushi/Z170i-Pro-Gaming-OpenCore)。
 3. OpenCanopy和HiDPI默认开启。如果你没有4K显示器，请修改`config.plist/NVRAM/Add/4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14/UIScale`。
 4. 我在USB映射里面加满了15个端口。2个USB 3.0(前置) + 4个USB 3.0(后置) + 2个USB 2.0(后置) + 蓝牙(内部M.2) = 15个端口。一般情况下ITX机箱没有前置USB 2.0接口所以我没有添加板载USB 2.0(HS11/HS12)。这项设定应该符合绝大多数人的需求。但如果你选购了一些奇奇怪怪的需要单独连USB 2.0的无线网卡, 参考[这里](https://dortania.github.io/USB-Map-Guide/)创建自己的USB映射。
