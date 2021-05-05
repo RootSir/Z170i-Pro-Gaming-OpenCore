@@ -1,6 +1,6 @@
 # 华硕Z170i Pro Gaming黑苹果Opencore
 
-本EFI可在macOS Big Sur (11.2.1)上驱动。FCPX显卡渲染正常工作。HDR可正常开启。支持睡眠，隔空投送和接力。
+本EFI可在macOS Big Sur (11.3.1)上驱动。FCPX显卡渲染正常工作。HDR可正常开启。支持睡眠，隔空投送和接力。
 ![image](Screenshot_en-us.png)
 
 ## 注意事项
