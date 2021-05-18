@@ -1,4 +1,6 @@
 # Z170i-Pro-Gaming-OpenCore
+
+## I‘ve ordered a M1 Mac Mini and will not update this repo after June. If you want to continue this repo please contact me and I'll transfer the ownership.
 [中文版本](README_zh-cn.md)
 
 This is an OpenCore version of ASUS Z170i Pro Gaming Hackintosh EFI. It works on macOS Big Sur (11.3.1). FCPX GPU rendering works smoothly. HDR can be enabled. Sleep, Airdrop and Handoff are supported.
