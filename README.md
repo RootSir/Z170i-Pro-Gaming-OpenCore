@@ -1,6 +1,6 @@
 # Z170i-Pro-Gaming-OpenCore
 
-## I don't own the hardware right now. If you want to continue this repo please contact me and I'll transfer the ownership. The [HD530 branch](https://github.com/BrushXue/Z170i-Pro-Gaming-OpenCore/tree/HD530) is updated for Monterey. If you have dGPU, you may adjust `config.plist` accordingly.
+## I don't own the hardware right now. If you want to continue this repo please contact me and I'll transfer the ownership. If you have dGPU, you may adjust `config.plist` accordingly.
 
 [中文版本](README_zh-cn.md)
 
