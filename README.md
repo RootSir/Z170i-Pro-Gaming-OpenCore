@@ -1,7 +1,6 @@
 # Z170i-Pro-Gaming-OpenCore
 
-## I don't own the hardware right now. If you want to continue this repo please contact me and I'll transfer the ownership. If you have dGPU, you may adjust `config.plist` accordingly.
-
+## I don't own the hardware right now. If you want to continue this repo please contact me and I'll transfer the ownership.
 [中文版本](README_zh-cn.md)
 
 
