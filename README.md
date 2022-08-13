@@ -1,8 +1,7 @@
 # Z170i-Pro-Gaming-OpenCore
-
+[中文版本](README_zh-cn.md)
 ## This will be the last update for SMBIOS iMac17,1 as Skylake support is dropped in macOS 13.
 ### The next version could be based on iMac18,3 or iMacPro1,1, depending on availability.
-[中文版本](README_zh-cn.md)
 
 This is an OpenCore version of ASUS Z170i Pro Gaming Hackintosh EFI. It works on macOS Monterey (12.5). FCPX GPU rendering works smoothly. HDR can be enabled. Sleep, Airdrop and Handoff are supported.
 
