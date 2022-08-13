@@ -1,14 +1,12 @@
 # 华硕Z170i Pro Gaming黑苹果Opencore
 
-本EFI可在macOS Big Sur (11.3.1)上驱动。FCPX显卡渲染正常工作。HDR可正常开启。支持睡眠，隔空投送和接力。
+本EFI可在macOS Monterey (12.5)上驱动。FCPX显卡渲染正常工作。HDR可正常开启。支持睡眠，隔空投送和接力。
 ![image](Screenshot_en-us.png)
 
 ## 注意事项
 1. 加入Mac启动音效。根据主板的不同，可能需要修改‘config.plist/UEFI/Audio/AudioOut’。
-2. 如果你没有独立显卡（核显输出），参考[这里](https://github.com/berikiushi/Z170i-Pro-Gaming-OpenCore)。
-3. OpenCanopy和HiDPI默认开启。如果你没有4K显示器，请修改`config.plist/NVRAM/Add/4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14/UIScale`。
-4. 我在USB映射里面加满了15个端口。2个USB 3.0(前置) + 4个USB 3.0(后置) + 2个USB 2.0(后置) + 蓝牙(内部M.2) = 15个端口。一般情况下ITX机箱没有前置USB 2.0接口所以我没有添加板载USB 2.0(HS11/HS12)。这项设定应该符合绝大多数人的需求。但如果你选购了一些奇奇怪怪的需要单独连USB 2.0的无线网卡, 参考[这里](https://dortania.github.io/USB-Map-Guide/)创建自己的USB映射。
-5. 板载声卡3.5mm输出需要接在绿色（LINE OUT）插孔上面。如果从Windows系统重新启动会没有声音，这是华硕声卡驱动的问题。每次从Windows重启进入macOS时请先关机再开机。
+2. 我在USB映射里面加满了15个端口。2个USB 3.0(前置) + 4个USB 3.0(后置) + 2个USB 2.0(后置) + 蓝牙(内部M.2) = 15个端口。一般情况下ITX机箱没有前置USB 2.0接口所以我没有添加板载USB 2.0(HS11/HS12)。这项设定应该符合绝大多数人的需求。但如果你选购了一些奇奇怪怪的需要单独连USB 2.0的无线网卡, 参考[这里](https://dortania.github.io/USB-Map-Guide/)创建自己的USB映射。
+3. 板载声卡3.5mm输出需要接在绿色（LINE OUT）插孔上面。如果从Windows系统重新启动会没有声音，这是华硕声卡驱动的问题。每次从Windows重启进入macOS时请先关机再开机。
 
 ![image](Z170iProGaming.jpg)
 
@@ -19,7 +17,7 @@
 | 处理器 | 英特尔 | i7-6700K |  | |
 | 内存 | 芝奇 | TridentZ 2x16GB DDR4 3000 |  | 超频至 3200 |
 | 核芯显卡 | 英特尔 | HD Graphics 530 | 免驱 | Headless模式 |
-| 独立显卡 | 讯景 | RX 580 GTS XXX Edition 8GB | 免驱 | 2304流处理器 |
+| 独立显卡 | 蓝宝石 | Pulse RX580 8GB | 免驱 | 2304流处理器 |
 | 固态硬盘 | 三星 | SM961 1TB NVMe | [NVMeFix](https://github.com/acidanthera/NVMeFix) | |
 | 无线 | 博通 | BCM94360NG M.2 | 免驱 | 替换QCA61x4A* |
 | 以太网 | 英特尔 | I219-V | [IntelMausi](https://github.com/acidanthera/IntelMausi) | |
@@ -45,6 +43,3 @@
 | 快速启动 | 关闭 |
 | 操作系统类型 | 其他操作系统 |
 | 开启CSM | 关闭 |
-
-## 已知问题
-显卡风扇在启动画面时有概率满速几秒，进入桌面后正常。确定是讯景BIOS的bug，刷其他品牌BIOS后恢复正常。
