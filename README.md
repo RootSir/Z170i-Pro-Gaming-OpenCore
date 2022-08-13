@@ -1,11 +1,10 @@
 # Z170i-Pro-Gaming-OpenCore
 
-## I don't own the hardware right now. If you want to continue this repo please contact me and I'll transfer the ownership.
+## This will be the last update for SMBIOS iMac17,1 as Skylake support is dropped in macOS 13.
+### The next version could be based on iMac18,3 or iMacPro1,1, depending on availability.
 [中文版本](README_zh-cn.md)
 
-
-
-This is an OpenCore version of ASUS Z170i Pro Gaming Hackintosh EFI. It works on macOS Big Sur (11.3.1). FCPX GPU rendering works smoothly. HDR can be enabled. Sleep, Airdrop and Handoff are supported.
+This is an OpenCore version of ASUS Z170i Pro Gaming Hackintosh EFI. It works on macOS Monterey (12.5). FCPX GPU rendering works smoothly. HDR can be enabled. Sleep, Airdrop and Handoff are supported.
 
 ![image](Screenshot_en-us.png)
 
@@ -25,7 +24,7 @@ This is an OpenCore version of ASUS Z170i Pro Gaming Hackintosh EFI. It works on
 | CPU | Intel | i7-6700K | | |
 | RAM | G.SKILL | TridentZ 2x16GB DDR4 3000 | | Overclocked to 3200 |
 | iGPU | Intel | HD Graphics 530 | built-in | Headless mode |
-| dGPU | XFX | RX 580 GTS XXX Edition 8GB | built-in | 2304 SP |
+| dGPU | Sapphire | PULSE RX 580 8G | built-in | 2304 SP |
 | SSD | Samsung | SM961 1TB NVMe | [NVMeFix](https://github.com/acidanthera/NVMeFix) | |
 | Wireless | Broadcom | BCM94360NG M.2 | built-in | QCA61x4A was replaced* |
 | Ethernet | Intel | I219-V | [IntelMausi](https://github.com/acidanthera/IntelMausi) | |
